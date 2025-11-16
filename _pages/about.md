@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='#'>University of Michigan</a>
+subtitle: PhD Candidate, <a href='https://umich.edu/'>University of Michigan</a>
 
 profile:
   align: right
@@ -24,8 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. candidate in <a href='https://aero.engin.umich.edu/'>Aerospace Engineering</a> at the <a href='https://umich.edu/'>University of Michigan</a>, advised by <a href='https://caslab.engin.umich.edu/people#h.p_QAef0sxWJ-Z9'>Prof. Karthik Duraisamy</a>. I am also pursuing a Ph.D. in Scientific Computing through the <a href='https://micde.umich.edu/'>Michigan Institute for Computational Discovery & Engineering (MICDE)</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before coming to Michigan, I completed my M.A.Sc. (2022) in <a href='https://mech.ubc.ca/'>Mechanical Engineering</a> at the <a href='https://www.ubc.ca/'>University of British Columbia</a>, where I worked with <a href='https://mech.ubc.ca/carl-ollivier-gooch/'>Prof. Carl Ollivier-Gooch</a>, and received my B.Sc. (2019) in Aerospace Engineering from Amirkabir University of Technology (Tehran Polytechnic).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on Scientific Machine Learning (SciML) and AI for Science (AI4Science), with an emphasis on reduced-order modeling (model reduction), operator learning, and neural approaches for understanding, predicting, and controlling complex dynamical systems. Broadly, my work lies at the intersection of physical systems, scientific computing, and machine learning. I am particularly interested in how physical knowledge and governing equations can inform data-driven models, enabling extremely efficient, yet accurate ML/AI surrogates for PDE-governed systems.
+
+Please feel free to reach out if you have questions, would like to learn more about my research, or are interested in potential collaborations.
