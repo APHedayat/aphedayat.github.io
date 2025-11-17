@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a>
+subtitle:
 
 profile:
   align: right
@@ -24,10 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D. candidate in <a href='https://aero.engin.umich.edu/'>Aerospace Engineering</a> at the <a href='https://umich.edu/'>University of Michigan</a>, advised by <a href='https://caslab.engin.umich.edu/people#h.p_QAef0sxWJ-Z9'>Prof. Karthik Duraisamy</a>. I am also pursuing a Ph.D. in Scientific Computing through the <a href='https://micde.umich.edu/'>Michigan Institute for Computational Discovery & Engineering (MICDE)</a>. Before coming to Michigan, I completed my M.A.Sc. in <a href='https://mech.ubc.ca/'>Mechanical Engineering</a> at the <a href='https://www.ubc.ca/'>University of British Columbia</a> (2020-2022), where I worked with <a href='https://mech.ubc.ca/carl-ollivier-gooch/'>Prof. Carl Ollivier-Gooch</a>, and received my B.Sc. in Aerospace Engineering from Amirkabir University of Technology (Tehran Polytechnic) (2015-2019).
+I am a Ph.D. candidate in <a href='https://aero.engin.umich.edu/'>Aerospace Engineering</a> at the <a href='https://umich.edu/'>University of Michigan</a>, advised by <a href='https://caslab.engin.umich.edu/people#h.p_QAef0sxWJ-Z9'>Prof. Karthik Duraisamy</a>, and am also pursuing a Ph.D. in Scientific Computing through the <a href='https://micde.umich.edu/'>Michigan Institute for Computational Discovery & Engineering (MICDE)</a>. I previously completed my M.A.Sc. in <a href='https://mech.ubc.ca/'>Mechanical Engineering</a> at the <a href='https://www.ubc.ca/'>University of British Columbia</a> (2020-2022), where I worked with <a href='https://mech.ubc.ca/carl-ollivier-gooch/'>Prof. Carl Ollivier-Gooch</a>, and received my B.Sc. in Aerospace Engineering from Amirkabir University of Technology (Tehran Polytechnic) (2015-2019).
 
-My research focuses on scientific machine learning (SciML) and AI for science (AI4Science), with an emphasis on reduced-order modeling (model reduction), operator learning, and neural approaches for understanding, predicting, and controlling complex dynamical systems. Broadly, my work lies at the intersection of physical systems, scientific computing, and machine learning. I am particularly interested in how physical knowledge can inform data-driven models, enabling extremely efficient, yet accurate ML/AI surrogates for systems governed by partial differential equations (PDEs). Recently, I have been developing adaptive, continually learning models that can update themselves in real time and break free from the static “train-once, deploy-forever” paradigm.
+My research focuses on scientific machine learning (SciML) and AI for science (AI4Science), with an emphasis on reduced-order modeling (model reduction), operator learning, and neural approaches for complex dynamical systems. Recently, I have been developing adaptive, continually learning models that can update themselves in real time and break free from the static “train-once, deploy-forever” paradigm. The long-term goal of my research is to develop fast and reliable physics-informed ML/AI surrogates that enable near-real-time prediction, control, and decision-making. Such capabilities are essential for emerging applications, including digital twins, design optimization, and intelligent simulators in science and engineering.
 
-The long-term goal of my research is to develop fast and reliable ML/AI models that enable near-real-time prediction, control, and decision-making. Such capabilities are essential for emerging applications, including digital twins, design optimization, and intelligent simulators in science and engineering.
-
-If you’d like to learn more about my research, have questions, or are interested in collaborating, please feel free to reach out at <a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a>.
+If you’d like to learn more about my research or are interested in collaborating, please feel free to reach out at <a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a>.
