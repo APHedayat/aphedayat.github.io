@@ -477,13 +477,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/amirpasha-hedayat-267625190", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0009-0001-5229-9396", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
