@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented our work on Adaptive NiTROM at <a href='https://usnccm18.usacm.org/'>USNCCMCCM18</a>.
+Presented our work on Adaptive NiTROM at <a href='https://usnccm18.usacm.org/'>USNCCM18</a>.
