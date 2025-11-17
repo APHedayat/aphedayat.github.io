@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I successfully passed my PhD preliminary exam!
+Successfully passed my PhD preliminary exam!
