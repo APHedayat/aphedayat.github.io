@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate, <a href='https://umich.edu/'>University of Michigan</a>
+subtitle: <a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a>
 
 profile:
   align: right
