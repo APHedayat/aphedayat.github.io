@@ -11,7 +11,7 @@ profile:
   more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -30,4 +30,4 @@ Before coming to Michigan, I completed my M.A.Sc. (2022) in <a href='https://mec
 
 My research focuses on Scientific Machine Learning (SciML) and AI for Science (AI4Science), with an emphasis on reduced-order modeling (model reduction), operator learning, and neural approaches for understanding, predicting, and controlling complex dynamical systems. Broadly, my work lies at the intersection of physical systems, scientific computing, and machine learning. I am particularly interested in how physical knowledge and governing equations can inform data-driven models, enabling extremely efficient, yet accurate ML/AI surrogates for PDE-governed systems.
 
-Please feel free to reach out if you have questions, would like to learn more about my research, or are interested in potential collaborations.
+If you’d like to learn more about my research, have questions, or are interested in collaborating, please feel free to reach out at <a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a>.
