@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented our work on attention-enhanced autoencoders for weather prediction at <a href='https://more2024.sciencesconf.org/'>MORe2024</a>
+Presented our work on reduced-dimensional manifolds for weather predictions at <a href='https://more2024.sciencesconf.org/'>MORe2024</a>.
