@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-officially-started-my-phd-at-the-university-of-michigan",
+          title: 'Officially started my PhD at the University of Michigan!',
           description: "",
           section: "News",},{id: "news-i-successfully-passed-my-phd-preliminary-exam",
           title: 'I successfully passed my PhD preliminary exam!',
