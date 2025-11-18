@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/https:/aphedayat.github.io/assets/pdf/aphedayat_cv.pdf";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-my-first-post",
+        
+          title: "My First Post",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/my-first-post/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
