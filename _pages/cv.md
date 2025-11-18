@@ -1,7 +1,7 @@
 ---
 layout: default
 #permalink: /cv/
-permalink: https://aphedayat.github.io/assets/pdf/aphedayat_cv.pdf
+permalink: https://aphedayat.github.io/assets/pdf/amirpasha_hedayat___cv.pdf
 title: cv
 nav: true
 nav_order: 5
