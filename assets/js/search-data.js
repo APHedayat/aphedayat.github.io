@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/https:/aphedayat.github.io/assets/pdf/amirpasha_hedayat___cv.pdf";
           },
-        },{id: "post-my-first-post",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-03-14-Granular_Net/";
+          
+        },
+      },{id: "post-my-first-post",
         
           title: "My First Post",
         
