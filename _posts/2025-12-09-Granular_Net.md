@@ -5,26 +5,29 @@ date: 2025-12-09
 description: A PINN Approach to Granular Segregation Modeling
 tags: AI4Science, SciML, PINNs, Granular Materials, Segregation Modeling
 categories: sample-posts
-thumbnail: https://aphedayat.github.io/assets/img/granular_net/Logo.png
+thumbnail: https://aphedayat.github.io/assets/img/post___granular_net/Logo.png
 ---
 
 # Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
 
-Granular materials, ubiquitous in natural and industrial processes, exhibit complex segregation dynamics when flowing, leading to challenges in achieving uniform mixtures. Traditional continuum models capture segregation through advection–diffusion equations with closure laws for percolation and diffusion, but predictive accuracy is often limited by geometry- and material-specific uncertainties. This project explores Physics-Informed Neural Networks (PINNs) as a novel framework for modeling granular segregation at the continuum scale, demonstrating both forward solution capabilities and inverse parameter identification from sparse experimental data.
+Ever wonder why when you pour a bag of mixed nuts, the big ones end up on top? That's granular segregation—particles of different sizes naturally separate when they flow. This is a significant problem in industries like pharmaceuticals and agriculture where uniform mixtures are essential. We explored Physics-Informed Neural Networks (PINNs) as a novel framework for modeling granular segregation, demonstrating both forward solution capabilities and inverse parameter identification from sparse experimental data.
 
 ## Project Team
 
 <div class="row mt-3">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="author-info">
-            <img src="https://aphedayat.github.io/assets/img/post___granular_net/IMG_4102.jpg" alt="Amir Nazemi" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
-            <h5>Amir Nazemi</h5>
-        </div>
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="author-info">
-            <img src="https://aphedayat.github.io/assets/img/post___granular_net/IMG_4102.jpg" alt="Amirpasha Hedayat" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
-            <h5>Amirpasha Hedayat</h5>
+    <div class="col-sm-12 mt-3 mt-md-0">
+        <div class="text-center">
+            <img src="https://aphedayat.github.io/assets/img/post___granular_net/IMG_4102.jpg" alt="Project Team" class="img-fluid rounded z-depth-1" style="max-width: 600px; margin: 0 auto;">
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <h5>Amir Nazemi</h5>
+                    <p><a href="mailto:nazemi@umich.edu">nazemi@umich.edu</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Amirpasha Hedayat</h5>
+                    <p><a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
