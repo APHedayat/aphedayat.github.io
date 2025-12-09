@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Granular Net: Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
+title: Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
 date: 2025-12-09
 description: A PINN Approach to Granular Segregation Modeling
 tags: AI4Science, SciML, PINNs, Granular Materials, Segregation Modeling
