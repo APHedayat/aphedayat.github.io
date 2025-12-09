@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/https:/aphedayat.github.io/assets/pdf/amirpasha_hedayat___cv.pdf";
           },
-        },{id: "post-",
+        },{id: "post-physics-informed-neural-networks-for-continuum-modeling-of-granular-segregation",
         
-          title: "",
+          title: "Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation",
         
-        description: "",
+        description: "A PINN Approach to Granular Segregation Modeling",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-12-09-Granular_Net/";
+            window.location.href = "/blog/2025/Granular_Net/";
           
         },
       },{id: "post-my-first-post",
