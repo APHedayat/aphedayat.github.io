@@ -5,7 +5,7 @@ date: 2025-12-09
 description: A PINN Approach to Granular Segregation Modeling
 tags: AI4Science, SciML, PINNs, Granular Materials, Segregation Modeling
 categories: sample-posts
-thumbnail: assets/img/granular_net/Logo.png
+thumbnail: https://aphedayat.github.io/assets/img/granular_net/Logo.png
 ---
 
 # Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
@@ -17,13 +17,13 @@ Granular materials, ubiquitous in natural and industrial processes, exhibit comp
 <div class="row mt-3">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="author-info">
-            <img src="assets/img/post___granular_net/IMG_4102.jpg" alt="Amir Nazemi" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+            <img src="https://aphedayat.github.io/assets/img/post___granular_net/IMG_4102.jpg" alt="Amir Nazemi" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
             <h5>Amir Nazemi</h5>
         </div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="author-info">
-            <img src="assets/img/post___granular_net/IMG_4102.jpg" alt="Amirpasha Hedayat" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
+            <img src="https://aphedayat.github.io/assets/img/post___granular_net/IMG_4102.jpg" alt="Amirpasha Hedayat" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
             <h5>Amirpasha Hedayat</h5>
         </div>
     </div>
@@ -39,7 +39,7 @@ Granular materials, ubiquitous in natural and industrial processes, exhibit comp
 
 Granular segregation–the spontaneous demixing of particles that differ in size, density, or shape–undermines product uniformity in sectors handling bulk solids, such as polymers, pharmaceuticals, and agricultural products. In hoppers and heap flows used for storage and dosing, changing operating conditions or geometry can substantially alter discharge composition, making scale-up from lab to plant non-trivial.
 
-Traditional continuum models augment the advection�diffusion transport equation with a segregation flux in the direction normal to the free surface, producing a scalar transport PDE for each species' concentration. While these models have achieved quantitative agreement with discrete element method (DEM) simulations and experiments, accurate prediction across geometries and materials still faces two bottlenecks: (a) realistic kinematics are geometry and operating condition dependent; and (b) a universally reliable segregation law is elusive, especially beyond spherical, size-segregating systems.
+Traditional continuum models augment the advection–diffusion transport equation with a segregation flux in the direction normal to the free surface, producing a scalar transport PDE for each species' concentration. While these models have achieved quantitative agreement with discrete element method (DEM) simulations and experiments, accurate prediction across geometries and materials still faces two bottlenecks: (a) realistic kinematics are geometry and operating condition dependent; and (b) a universally reliable segregation law is elusive, especially beyond spherical, size-segregating systems.
 
 Physics-Informed Neural Networks (PINNs), introduced by Raissi, Perdikaris, and Karniadakis, incorporate governing PDEs directly into the training objective. By enforcing the residuals of the PDE along with boundary and initial conditions, PINNs can approximate solutions even with limited labeled data. However, to date, PINNs have not been applied to continuum segregation models in granular flows.
 
@@ -67,7 +67,7 @@ All inverse approaches jointly optimize the concentration network and closure pa
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Framework.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Framework.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -82,7 +82,7 @@ All four models (forward PINN and three inverse variants) demonstrate successful
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/Loss_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Loss_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -95,7 +95,7 @@ The forward PINN successfully captures the expected segregation pattern: small p
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/PINN_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/PINN_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -112,7 +112,7 @@ The forward PINN achieves excellent accuracy with $R^2 = 0.9999$, RMSE = $0.0030
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/Predicted_vs_Actual.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Predicted_vs_Actual.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -125,7 +125,7 @@ The inverse PINN for learning $\Lambda$ successfully recovers parameter values f
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/Segregation_Velocity_Comparison.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Segregation_Velocity_Comparison.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
