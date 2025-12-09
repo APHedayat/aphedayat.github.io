@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-03-14-Granular_Net/";
+            window.location.href = "/blog/2025/2025-12-09-Granular_Net/";
           
         },
       },{id: "post-my-first-post",
