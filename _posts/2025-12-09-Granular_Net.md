@@ -3,12 +3,10 @@ layout: post
 title: Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
 date: 2025-12-09
 description: A PINN Approach to Granular Segregation Modeling
-tags: AI4Science, SciML, PINNs, Granular Materials, Segregation Modeling
+tags: AI4Science, SciML, PINNs, GranularMaterials, SegregationModeling
 categories: sample-posts
 thumbnail: https://aphedayat.github.io/assets/img/post___granular_net/Logo.png
 ---
-
-# Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
 
 Ever wonder why when you pour a bag of mixed nuts, the big ones end up on top? That's granular segregation—particles of different sizes naturally separate when they flow. This is a significant problem in industries like pharmaceuticals and agriculture where uniform mixtures are essential. We explored Physics-Informed Neural Networks (PINNs) as a novel framework for modeling granular segregation, demonstrating both forward solution capabilities and inverse parameter identification from sparse experimental data.
 
@@ -20,12 +18,12 @@ Ever wonder why when you pour a bag of mixed nuts, the big ones end up on top? T
             <img src="https://aphedayat.github.io/assets/img/post___granular_net/IMG_4102.jpg" alt="Project Team" class="img-fluid rounded z-depth-1" style="max-width: 600px; margin: 0 auto;">
             <div class="row mt-3">
                 <div class="col-sm-6">
-                    <h5>Amir Nazemi</h5>
-                    <p><a href="mailto:nazemi@umich.edu">nazemi@umich.edu</a></p>
-                </div>
-                <div class="col-sm-6">
                     <h5>Amirpasha Hedayat</h5>
                     <p><a href="mailto:ahedayat@umich.edu">ahedayat@umich.edu</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Amir Nazemi</h5>
+                    <p><a href="mailto:nazemi@umich.edu">nazemi@umich.edu</a></p>
                 </div>
             </div>
         </div>
@@ -34,9 +32,9 @@ Ever wonder why when you pour a bag of mixed nuts, the big ones end up on top? T
 
 ## Project Links
 
-- **[Final Report PDF](assets/pdf/post___granular_net/CSE_598__Final-Report.pdf)**
+- **[Final Report PDF](https://aphedayat.github.io/assets/pdf/post___granular_net/CSE_598__Final-Report.pdf)**
 - **[GitHub Repository](https://github.com/yourusername/granular-net)**
-- **[Presentation Slides](assets/pdf/post___granular_net/CSE_598__Slides.pdf)**
+- **[Presentation Slides](https://aphedayat.github.io/assets/pdf/post___granular_net/CSE598_Project_Slides.pdf)**
 
 ## Background & Challenges
 
@@ -85,7 +83,7 @@ All four models (forward PINN and three inverse variants) demonstrate successful
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Loss_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Loss_Plots.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -98,7 +96,7 @@ The forward PINN successfully captures the expected segregation pattern: small p
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/PINN_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/PINN_Plots.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -115,7 +113,7 @@ The forward PINN achieves excellent accuracy with $R^2 = 0.9999$, RMSE = $0.0030
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Predicted_vs_Actual.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Predicted_vs_Actual.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -128,7 +126,7 @@ The inverse PINN for learning $\Lambda$ successfully recovers parameter values f
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Segregation_Velocity_Comparison.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="https://aphedayat.github.io/assets/img/post___granular_net/Results/Segregation_Velocity_Comparison.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
