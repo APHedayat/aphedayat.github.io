@@ -19,14 +19,12 @@ Granular materials, ubiquitous in natural and industrial processes, exhibit comp
         <div class="author-info">
             <img src="assets/img/post___granular_net/IMG_4102.jpg" alt="Amir Nazemi" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
             <h5>Amir Nazemi</h5>
-            <p>nazemi@umich.edu</p>
         </div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="author-info">
             <img src="assets/img/post___granular_net/IMG_4102.jpg" alt="Amirpasha Hedayat" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
             <h5>Amirpasha Hedayat</h5>
-            <p>ahedayat@umich.edu</p>
         </div>
     </div>
 </div>
