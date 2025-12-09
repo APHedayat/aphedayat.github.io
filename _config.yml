@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Notes # blog_name will be displayed in your blog page
-blog_description: casual reflections on research and ideas.
+blog_description: reflections on research and ideas...
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
