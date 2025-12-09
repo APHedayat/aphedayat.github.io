@@ -41,17 +41,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/Granular_Net/";
           
         },
-      },{id: "post-my-first-post",
-        
-          title: "My First Post",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/my-first-post/";
-          
-        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
