@@ -5,7 +5,7 @@ date: 2025-12-09
 description: A PINN Approach to Granular Segregation Modeling
 tags: AI4Science, SciML, PINNs, Granular Materials, Segregation Modeling
 categories: sample-posts
-# thumbnail: assets/img/granular_net/Logo.png
+thumbnail: assets/img/granular_net/Logo.png
 ---
 
 # Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
@@ -14,7 +14,7 @@ Granular materials, ubiquitous in natural and industrial processes, exhibit comp
 
 ## Project Team
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="author-info">
             <img src="assets/img/post___granular_net/IMG_4102.jpg" alt="Amir Nazemi" class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
@@ -27,13 +27,13 @@ Granular materials, ubiquitous in natural and industrial processes, exhibit comp
             <h5>Amirpasha Hedayat</h5>
         </div>
     </div>
-</div> -->
+</div>
 
 ## Project Links
 
-<!-- - **[Final Report PDF](assets/pdf/post___granular_net/CSE_598__Final-Report.pdf)**
+- **[Final Report PDF](assets/pdf/post___granular_net/CSE_598__Final-Report.pdf)**
 - **[GitHub Repository](https://github.com/yourusername/granular-net)**
-- **[Presentation Slides](assets/pdf/post___granular_net/CSE_598__Slides.pdf)** -->
+- **[Presentation Slides](assets/pdf/post___granular_net/CSE_598__Slides.pdf)**
 
 ## Background & Challenges
 
@@ -65,14 +65,14 @@ We explore three inverse problem formulations:
 
 All inverse approaches jointly optimize the concentration network and closure parameters/network while enforcing the governing transport equation.
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Framework.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Project pipeline showing the forward and inverse PINN approaches for granular segregation modeling.
-</div> -->
+</div>
 
 ## Results
 
@@ -80,27 +80,27 @@ All inverse approaches jointly optimize the concentration network and closure pa
 
 All four models (forward PINN and three inverse variants) demonstrate successful convergence over 20,000 epochs. The forward PINN achieves a final total loss of $1.49 \times 10^{-4}$, with PDE residual losses on the order of $10^{-3}$ to $10^{-4}$, confirming accurate enforcement of physical constraints.
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/Loss_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Training loss history for all four PINN models showing convergence of PDE residual, boundary condition, and data-fitting losses.
-</div> -->
+</div>
 
 ### Concentration Field Predictions
 
 The forward PINN successfully captures the expected segregation pattern: small particles accumulate near the bottom of the flowing layer, while large particles dominate near the surface. The segregation becomes more pronounced downstream and evolves over time from the initial well-mixed state to the final segregated profile.
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/PINN_Plots.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Concentration field evolution for all PINN models at six time points, showing successful capture of segregation dynamics.
-</div> -->
+</div>
 
 ### Prediction Accuracy
 
@@ -110,27 +110,27 @@ The forward PINN achieves excellent accuracy with $R^2 = 0.9999$, RMSE = $0.0030
 - **PINN_AB**: $R^2 = 1.0000$, RMSE = $0.0015$, MAE = $0.0010$
 - **PINN_NN**: $R^2 = 0.9998$, RMSE = $0.0028$, MAE = $0.0015$
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/Predicted_vs_Actual.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Predicted versus actual concentration scatter plots for all four PINN models, demonstrating excellent agreement with ground truth.
-</div> -->
+</div>
 
 ### Parameter Discovery
 
 The inverse PINN for learning $\Lambda$ successfully recovers parameter values from sparse experimental data. Starting from an initial value of $\Lambda = 0.3949$, the parameter converges to $\Lambda = 1.2007$, matching the ground truth value of $1.2$ with an error of only $0.0007$ ($0.06\%$).
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/post___granular_net/Results/Segregation_Velocity_Comparison.pdf" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Parameter evolution and segregation velocity comparison showing successful recovery of constitutive parameters and learned closure laws.
-</div> -->
+</div>
 
 ## Key Contributions
 
