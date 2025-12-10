@@ -33,8 +33,9 @@ Ever wonder why when you pour a bag of mixed nuts, the big ones end up on top? T
 ## Project Links
 
 - **[Final Report PDF](https://aphedayat.github.io/assets/pdf/post___granular_net/CSE_598__Final-Report.pdf)**
-- **[GitHub Repository](https://github.com/yourusername/granular-net)**
+- **[GitHub Repository](https://github.com/amirnzm/GranularNet)**
 - **[Presentation Slides](https://aphedayat.github.io/assets/pdf/post___granular_net/CSE598_Project_Slides.pdf)**
+- **[Poster](https://aphedayat.github.io/assets/pdf/post___granular_net/Poster_v3.pdf)**
 
 ## Background & Challenges
 
