@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Physics-Informed Neural Networks for Continuum Modeling of Granular Segregation
+title: "Granular Net: A Physics-Informed Neural Network for Continuum Modeling of Granular Segregation"
 date: 2025-12-09
 description: A PINN Approach to Granular Segregation Modeling
 tags: AI4Science, SciML, PINNs, GranularMaterials, SegregationModeling
@@ -55,14 +55,14 @@ The forward PINN approximates the concentration field $c_\theta(\tilde{x}, \tild
 
 $$\mathcal{L}(\theta) = \lambda_{\text{pde}} \mathcal{L}_{\text{pde}} + \lambda_{\text{bc}} \mathcal{L}_{\text{bc}} + \lambda_{\text{ic}} \mathcal{L}_{\text{ic}}$$
 
-The segregation velocity is fixed to the known analytical form $w_s = \Lambda(1-\tilde{x})g(\tilde{z})c(1-c)$ with parameters from the literature.
+The segregation velocity is fixed to the known analytical form $w_s = \Lambda(1-\tilde{x})g(\tilde{z})(1-c)$ with parameters from the literature.
 
 ### Inverse PINNs
 
 We explore three inverse problem formulations:
 
-1. **Learning $\Lambda$**: Treating the segregation parameter as a learnable parameter while maintaining the known functional form.
-2. **Learning $A$ and $B$**: Extending to a more general parametric form with concentration-dependent terms.
+1. **Learning $\Lambda$**: Treating the segregation parameter as a learnable parameter ($\Lambda$) while maintaining the known functional form.
+2. **Learning $A$ and $B$**: Extending to a more general parametric form for segregation velocity with two unknown terms ($A$ and $B$).
 3. **Neural Network Closure**: Replacing the entire segregation velocity functional form with a neural network that learns the closure directly from data.
 
 All inverse approaches jointly optimize the concentration network and closure parameters/network while enforcing the governing transport equation.
@@ -73,7 +73,7 @@ All inverse approaches jointly optimize the concentration network and closure pa
     </div>
 </div>
 <div class="caption">
-    Project pipeline showing the forward and inverse PINN approaches for granular segregation modeling.
+    Granular Net Framework.
 </div>
 
 ## Results
@@ -106,11 +106,11 @@ The forward PINN successfully captures the expected segregation pattern: small p
 
 ### Prediction Accuracy
 
-The forward PINN achieves excellent accuracy with $R^2 = 0.9999$, RMSE = $0.0030$, and MAE = $0.0022$ on test data. The inverse models achieve even higher accuracy on experimental data:
+The forward PINN achieves excellent accuracy with RMSE = $0.0030$ and MAE = $0.0022$ on test data. The inverse models achieve even higher accuracy on experimental data:
 
-- **PINN_Lambda**: $R^2 = 1.0000$, RMSE = $0.0015$, MAE = $0.0009$
-- **PINN_AB**: $R^2 = 1.0000$, RMSE = $0.0015$, MAE = $0.0010$
-- **PINN_NN**: $R^2 = 0.9998$, RMSE = $0.0028$, MAE = $0.0015$
+- **PINN_Lambda**: RMSE = $0.0015$, MAE = $0.0009$
+- **PINN_AB**: RMSE = $0.0015$, MAE = $0.0010$
+- **PINN_NN**: RMSE = $0.0028$, MAE = $0.0015$
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -136,9 +136,9 @@ The inverse PINN for learning $\Lambda$ successfully recovers parameter values f
 
 ## Key Contributions
 
-Our primary contributions are threefold:
+Our primary contributions are:
 
-**Forward Solution Capability:** We established that PINNs can accurately solve the advection-segregation-diffusion equation for granular segregation without requiring labeled training data. The forward PINN achieved PDE residuals on the order of $10^{-3}$ while correctly capturing the expected segregation patterns.
+**Forward Solution Capability:** We established that PINNs can accurately solve the advection-segregation-diffusion equation for granular segregation without requiring labeled training data (purely unsupervised).
 
 **Parameter Identification:** We demonstrated that PINNs can simultaneously learn both the concentration field and unknown constitutive parameters. The inverse PINN successfully recovered parameter values that explain experimental observations while maintaining physical consistency through the PDE constraints.
 
@@ -146,11 +146,7 @@ Our primary contributions are threefold:
 
 ## Broader Impact
 
-This work contributes to the broader goal of developing data-driven, physics-informed models for granular materials. The ability to discover constitutive laws from sparse experimental data while maintaining physical consistency has implications beyond segregation modeling:
-
-- **Industrial Applications**: The framework can be applied to hopper design, heap leach optimization, and pharmaceutical manufacturing where segregation control is critical.
-- **Scientific Discovery**: The inverse problem framework provides a systematic approach to interrogating constitutive ambiguity in granular flows.
-- **Methodology Transfer**: The PINN framework developed here can be adapted to other transport phenomena in granular materials, such as heat transfer, moisture migration, or chemical reactions.
+This work contributes to the broader goal of developing data-driven, physics-informed models for granular materials. The ability to discover constitutive laws from sparse experimental data while maintaining physical consistency has implications beyond segregation modeling.
 
 ## Future Directions
 
